@@ -20,6 +20,24 @@ cd aida-react
 npm install
 ```
 
+## Environment Variables
+
+Create a `.env` file in the project root to configure environment variables (Vite loads variables prefixed with `VITE_`).
+
+1. Create the file:
+
+```bash
+touch .env
+```
+
+2. Add your backend URL (example below):
+
+```bash
+VITE_APP_BACKEND_URL=http://localhost:8080
+```
+
+If the dev server is already running, restart it after changing `.env`.
+
 ## Running the Project
 
 Start the development server:
